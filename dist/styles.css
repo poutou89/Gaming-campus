@@ -607,6 +607,18 @@ video {
   margin-top: 3rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -633,6 +645,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .flex-col {
@@ -1015,6 +1035,10 @@ video {
     bottom: -6rem;
   }
 
+  .md\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1053,6 +1077,10 @@ video {
 
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
   }
 
   .md\:gap-28 {
